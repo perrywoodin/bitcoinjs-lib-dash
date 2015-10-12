@@ -47,7 +47,7 @@ module.exports = {
     dustThreshold: 0 // https://github.com/dogecoin/dogecoin/blob/v1.7.1/src/core.h#L155-L160
   },
   dash: {
-    messagePrefix: '\x19DarkCoin Signed Message:\n',
+    messagePrefix: '\x19Dash Signed Message:\n',
     bip32: {
       public: 0x02fe52f8,
       private: 0x02fe52cc
@@ -58,7 +58,7 @@ module.exports = {
     dustThreshold: 5460 // https://github.com/dashpay/dash/blob/v0.12.0.x/src/primitives/transaction.h#L144-L155
   },
   dash_testnet: {
-    messagePrefix: '\x19DarkCoin Signed Message:\n',
+    messagePrefix: '\x19Dash Signed Message:\n',
     bip32: {
       public: 0x3a8061a0,
       private: 0x3a805837
